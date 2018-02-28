@@ -10,12 +10,3 @@ Welcome to the homepage for the CDPH R Users Group. Within this site we've colle
 [R Basics](/pages/basics.md) - Go here if you are new to R and want to get started
 
 [Plots/Graphs/Viz](viz.md) - Here we highlight a couple of packages to display and explore data
-
-The first step is to download and install R. [here](https://cran.r-project.org/mirrors.html) 
-
-There is also R Studio [here](https://www.rstudio.com/products/rstudio/download/). 
-
-R Studio is an Integrated Development Environment which provides a lot of functionality and ease of use.
-
-- [Course from Johns Hopkins on R Programming](https://www.coursera.org/learn/r-programming)
-- [Learn R on DataCamp](https://www.datacamp.com/courses/free-introduction-to-r)
