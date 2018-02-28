@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Home CDPH R Users
-tagline:Resources for using R 
+title: CDPH R Users
+tagline:Resources for CDPH staff using R
 description: first page for R Resources on CDPH Users
 ---
 
 
 The first step is to download and install R. [here](https://cran.r-project.org/mirrors.html) 
-
 
 There is also R Studio [here](https://www.rstudio.com/products/rstudio/download/). 
 
