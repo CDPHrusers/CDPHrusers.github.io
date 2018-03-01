@@ -1,6 +1,4 @@
-title: Cayman Blog Theme
-description: Cayman Blog Theme is a clean, responsive blogging theme for Jekyll and GitHub Pages, with social/SEO features.
-show_downloads: true
+
 
 baseurl: "/pages" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://cdphrusers.github.io" # change this to the base hostname & protocol for your site
