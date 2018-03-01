@@ -10,3 +10,4 @@ Welcome to the homepage for the CDPH R Users Group. Within this site we've colle
 [R Basics](pages/basics.html) - Go here if you are new to R and want to get started
 
 [Plots/Graphs/Viz](pages/viz.html) - Here we highlight a couple of packages to display and explore data
+
