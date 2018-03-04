@@ -8,9 +8,9 @@ description: first page for R Resources on CDPH User
 
 Welcome to the homepage for the CDPH R Users Group. Within this site we've collected some of our favorite resources to help you learn, improve, implement, and share your public health work with R. Please select the topic of interest to you to learn more. 
 
-[R Basics](basics.html) - Go here if you are new to R and want to get started
+[R Basics](docs/basics.html) - Go here if you are new to R and want to get started
 
-[R Studio](rstudio.html) - Software like [R Studio](https://www.rstudio.com/) make editing, testing, and development easier
+[R Studio](docs/rstudio.html) - Software like [R Studio](https://www.rstudio.com/) make editing, testing, and development easier
 
 [Plots/Graphs/Viz](viz.html) - Here we highlight a couple of packages to display and explore data
 
