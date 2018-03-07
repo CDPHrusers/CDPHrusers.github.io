@@ -22,9 +22,7 @@ Welcome to the homepage for the CDPH R Users Group. Within this site we've colle
 
 [Shiny](shiny.html) - With data and R you can build and deploy webapps
 
-[GitHub](tidy.html) - Powerful packages to help you clean and wrangle your datasets
-
 [GISr](gis.html) - R can handle your spatial data as well
 
-
+[GitHub](github.html) - GitHub can be a powerful complement to R and other languages as you work on [reproducable research](http://kbroman.org/steps2rr/) 
 
