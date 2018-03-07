@@ -43,4 +43,5 @@ ___
 ___
 ##  Plots/Graphs/Viz <a id="viz"></a>
 One of the most popular packages for visualizing your data is ggplot2. It relies on the [grammar of graphics](http://vita.had.co.nz/papers/layered-grammar.pdf). 
+
 For inspiration, check out these [top 50 vizualizations in ggplot](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html), with code
