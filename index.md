@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: CDPH R Users
 tagline: Resources for CDPH staff using R
 description: first page for R Resources on CDPH User
