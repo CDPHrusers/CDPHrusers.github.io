@@ -8,31 +8,24 @@ description: first page for R Resources on CDPH User
 
 Welcome to the homepage for the CDPH R Users Group. Within this site we've collected some of our favorite resources to help you learn, improve, implement, and share your public health work with R. Please select the topic of interest to you to learn more. 
 
-<<<<<<< HEAD
-[R Basics](docs/basics.html) - Go here if you are new to R and want to get started
-
-[R Studio](docs/rstudio.html) - Software like [R Studio](https://www.rstudio.com/) make editing, testing, and development easier
-=======
+___
 [R Basics](#basics) - Go here if you are new to R and want to get started
 
 [R Studio](#rstudio) - Software like [R Studio](https://www.rstudio.com/) make editing, testing, and development easier
->>>>>>> 663c77151c617bb5b196397a712b3ccc02723cda
 
 [Plots/Graphs/Viz](#viz) - Here we highlight a couple of packages to display and explore data
 
-[Wrangling](tidy.html) - [Powerful packages](http://r4ds.had.co.nz/) to help you clean and wrangle your datasets
+[Wrangling](#tidy) - [Powerful packages](http://r4ds.had.co.nz/) to help you clean and wrangle your datasets
 
-[Surveys](survey.html) - Work with survey data, including [CHIS](http://asdfree.com/california-health-interview-survey-chis.html)
+[Surveys](#survey) - Work with survey data, including [CHIS](http://asdfree.com/california-health-interview-survey-chis.html)
 
-[Packages](packages.html) - R's user community is constantly adding functionality through new [scientific](https://ropensci.org/packages/) packages and connecting to popular datasets like the [US Census](https://walkerke.github.io/tidycensus/) and [PUMS]()
+[Packages](#packages) - R's user community is constantly adding functionality through new [scientific](https://ropensci.org/packages/) packages and connecting to popular datasets like the [US Census](https://walkerke.github.io/tidycensus/) and [PUMS]()
 
-[Shiny](shiny.html) - With data and R you can build and deploy webapps
+[Shiny](#shiny) - With data and R you can build and deploy webapps
 
-[GISr](gis.html) - R can handle your spatial data as well
+[GISr](#gis) - R can handle your spatial data as well
 
-[GitHub](github.html) - GitHub can be a powerful complement to R and other languages as you work on [reproducable research](http://kbroman.org/steps2rr/) 
-<<<<<<< HEAD
-=======
+[GitHub](#github.html) - GitHub can be a powerful complement to R and other languages as you work on [reproducable research](http://kbroman.org/steps2rr/) 
 
 ___
 ##  R Basics <a id="basics"></a>
@@ -48,9 +41,10 @@ R Studio is an Integrated Development Environment which provides a lot of functi
 
 ___
 ##  R Studio <a id="rstudio"></a>
+
 ___
 ##  Plots/Graphs/Viz <a id="viz"></a>
+
 One of the most popular packages for visualizing your data is ggplot2. It relies on the [grammar of graphics](http://vita.had.co.nz/papers/layered-grammar.pdf). 
->>>>>>> 663c77151c617bb5b196397a712b3ccc02723cda
 
 For inspiration, check out these [top 50 vizualizations in ggplot](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html), with code
