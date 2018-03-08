@@ -1,3 +1,7 @@
 theme: jekyll-theme-minimal
 
 include: /pages
+
+header_pages:
+  - basics.md
+  - viz.md
