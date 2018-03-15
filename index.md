@@ -15,6 +15,8 @@ ___
 
 [Plots/Graphs/Viz](#viz) - Here we highlight a couple of packages to display and explore data
 
+[R Markdown](#markdown) - R Markdown allos you to easily document your work and share documentation of methods and results
+
 [Wrangling](#tidy) - [Powerful packages](http://r4ds.had.co.nz/) to help you clean and wrangle your datasets
 
 [Surveys](#survey) - Work with survey data, including [CHIS](http://asdfree.com/california-health-interview-survey-chis.html)
@@ -52,3 +54,8 @@ One of the most popular packages for visualizing your data is [ggplot2](http://g
 
 
 For inspiration, check out these [top 50 vizualizations in ggplot](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html), with code
+
+___
+##  R Markdown <a id="markdown"></a>
+
+Here is [an example]("prelim_ghg_leb.html") of an R Markdown-generated webpage which demonstrates a simple analysis to compare carbon emissions and life expactancy at birth.
