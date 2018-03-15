@@ -58,4 +58,4 @@ For inspiration, check out these [top 50 vizualizations in ggplot](http://r-stat
 ___
 ##  R Markdown <a id="markdown"></a>
 
-Here is [an example]("prelim_ghg_leb.html") of an R Markdown-generated webpage which demonstrates a simple analysis to compare carbon emissions and life expactancy at birth.
+Here is [an example](prelim_ghg_leb.html) of an R Markdown-generated webpage which demonstrates a simple analysis to compare carbon emissions and life expactancy at birth.
