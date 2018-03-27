@@ -128,7 +128,7 @@ $(document).ready(function () {
 
 <div id="read-in-data-from-ihme" class="section level2">
 <h2>Read in data from IHME</h2>
-<p>This data was obtained from the Institute for Health Metrics and Evaluation <a href="http://ghdx.healthdata.org/gbd-results-tool">query site</a>. It collects a number of health outcome groups and relevant risk factors for 2016 and both sexes. The actual querey for the GBD death and DALYs data can be accessed <a href="http://ghdx.healthdata.org/gbd-results-tool?params=gbd-api-2016-production/861af9433136975f4da225c47f50adc2">here</a> and the risk factor data <a href="http://ghdx.healthdata.org/gbd-results-tool?params=gbd-api-2016-permalink/8405e7c7c17739179f5840dc7e3e8df8">here</a>.</p>
+<p>This data was obtained from the Institute for Health Metrics and Evaluation <a href="http://ghdx.healthdata.org/gbd-results-tool">query site</a>. It collects a number of health outcome groups and relevant risk factors for 2016 and both sexes. The actual query for the GBD death and DALYs data can be accessed <a href="http://ghdx.healthdata.org/gbd-results-tool?params=gbd-api-2016-production/861af9433136975f4da225c47f50adc2">here</a> and the risk factor data <a href="http://ghdx.healthdata.org/gbd-results-tool?params=gbd-api-2016-permalink/8405e7c7c17739179f5840dc7e3e8df8">here</a>.</p>
 <pre class="r"><code>GBDdata &lt;- read.csv(&quot;~/ScopingPlanHIA/IHME-GBD_2016_DATA-861af943-1.csv&quot;, header = T, stringsAsFactors = F)
 
 head(GBDdata) #look at the data</code></pre>
