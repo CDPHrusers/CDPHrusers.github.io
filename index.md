@@ -60,4 +60,4 @@ ___
 
 Here is [an example](prelim_ghg_leb.html) of an R Markdown-generated webpage which demonstrates a simple analysis to compare carbon emissions and life expactancy at birth.
 
-[And Another](GBDexplore.html)
+Here is [another example](GBDexplore.html) that looks at some US Global Burden of Disease data and the Risk Factors contributing to the leading causes of death. 
