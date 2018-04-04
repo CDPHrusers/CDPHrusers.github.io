@@ -40,6 +40,7 @@ R Studio is an Integrated Development Environment which provides a lot of functi
 
 - [Course from Johns Hopkins on R Programming](https://www.coursera.org/learn/r-programming)
 - [Learn R on DataCamp](https://www.datacamp.com/courses/free-introduction-to-r)
+- [R for Public Health](http://rforpublichealth.blogspot.com) blog with relevant examples
 
 ___
 ##  R Studio <a id="rstudio"></a>
