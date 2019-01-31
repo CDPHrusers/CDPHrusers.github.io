@@ -60,6 +60,8 @@ For inspiration, check out these [top 50 vizualizations in ggplot](http://r-stat
 ___
 ##  R Markdown <a id="markdown"></a>
 
+[ISDS Workshop on Wildfires](vargoISDSnotebook.nb.html)
+
 Here is [an example](prelim_ghg_leb.html) of an R Markdown-generated webpage which demonstrates a simple analysis to compare carbon emissions and life expactancy at birth.
 
 Here is [another example](GBDexplore.html) that looks at some US Global Burden of Disease data and the Risk Factors contributing to the leading causes of death. 
