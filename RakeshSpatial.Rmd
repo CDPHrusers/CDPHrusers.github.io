@@ -93,7 +93,7 @@ plot(fac_sp[c("year2015","year2016","year2017")], axes=T)
 
 ```
 
-Finally, let's get a csv out of this taht we can use in other analyses. We have to first remove the spatial information from our facilities spatial object to make it into a table.  
+Finally, let's get a csv out of this that we can use in other analyses. We have to first remove the spatial information from our facilities spatial object to make it into a table.  
 
 ```{r}
 
