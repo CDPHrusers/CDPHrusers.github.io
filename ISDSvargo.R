@@ -6,8 +6,6 @@ library(tidyverse)
 library(data.table)
 
 
-
-
 stateFIPs <- "06"
 TRurl <-
   paste0(
@@ -19,7 +17,7 @@ TRcenters <- fread(TRurl)
 
 
 TRcenters
-class(TRcenters$STATEFP)
+classclass(TRcenters$STATEFP)
 
 TRcentersAlt <- fread(
   TRurl,
@@ -99,8 +97,6 @@ Smk <-
   st_read(dsn = "HMSGIS.shp") %>%  st_set_crs(4326) # read in the shapefile and
 
 Smk
-
-
 
 Smk <- Smk %>%
   mutate(

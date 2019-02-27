@@ -1,0 +1,105 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+## This is code to read in a table of facilities in India and extract annual PM data from a raster.  
+
+## This code uses two packagfes to perform the spatial operations. Here is a [good resource on the topic](https://geocompr.robinlovelace.net/spatial-data-operations.html).
+
+
+First, load the two libraries
+```{r}
+library(sf); library(raster)
+```
+
+Next read in the csv of the facilities and take a look at it
+```{r}
+# read in the facilities csv
+fac <- read.csv("F:/PM2.5_Data/Facilities.csv")
+
+# view the facilities table
+fac
+
+
+```
+
+Right now, this is just a table (even thought it contains Lat and lon) and we need to make it a spatial object in order to perform spatial operations on it. NOTE: `crs` is the coordinate reference system. [This one](http://spatialreference.org/ref/epsg/wgs-84/) is one commonly used by GPS.
+
+```{r}
+# turn the table into a spatial object
+fac_sp <- st_as_sf(fac, coords = c("Longitude", "Latitude"), crs = 4326) 
+
+# view that object
+plot(fac_sp, axes = T)
+```
+Now we have our points and we need to bring in the raster data. 
+
+```{r}
+# read in the raster 
+dimaq2016 <- raster("F:/PM2.5_Data/GBD2017_PM_2016.tif")
+plot(dimaq2016)
+
+```
+
+Lastly, we extract the values in the raster where we have facilities and give those PM values to the corresponding facility. 
+
+```{r}
+extract(x = dimaq2016, y = fac_sp)
+```
+
+That function returns a vector of the PM values at each facility, and we'll just use that to populate a new column in the facility spatial object. And let's view the 2016 values at our facilities.
+
+```{r}
+fac_sp$dimaq2016 <- extract(x = dimaq2016, y = fac_sp)
+
+plot(fac_sp["dimaq2016"], axes=T)
+
+```
+
+Now let's write a function to make the computer do this for all the years for which we have rasters. 
+
+```{r}
+
+# define the function which reads in the raster for a given year and does the extraction
+extractDIMAQ <- function(year){
+  
+  rasterName <- paste0("F:/PM2.5_Data/GBD2017_PM_",year,".tif")
+  dimaq <- raster(rasterName)
+  extract(x = dimaq, y = fac_sp)
+
+}
+
+# define years
+years <- list("2015","2016","2017")
+
+# apply our new functino to each year in your list of years
+extractions <- lapply(years, extractDIMAQ)
+# it returns the result of each year's extraction as an entry in a list of the extractions
+
+# create new variables for each year in the original 
+fac_sp$year2015 <- unlist(extractions[1])
+fac_sp$year2016 <- unlist(extractions[2])
+fac_sp$year2017 <- unlist(extractions[3])
+
+fac_sp
+
+```
+
+Let's look at the PM values at facilities over the years.
+```{r}
+
+plot(fac_sp[c("year2015","year2016","year2017")], axes=T)
+
+```
+
+Finally, let's get a csv out of this taht we can use in other analyses. We have to first remove the spatial information from our facilities spatial object to make it into a table.  
+
+```{r}
+
+fac_sp$geometry <- NULL
+
+write.csv(fac_sp, "F:/PM2.5_Data/Facilities_w_PM.csv")
+
+```
+
