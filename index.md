@@ -59,7 +59,7 @@ For inspiration, check out these [top 50 visualizations in ggplot](http://r-stat
 
 ___
 ##  R Markdown <a id="markdown"></a>
-Apr 2019 -First look at [Drought seasonality for WNV](drought_first_look_by week.nb.html)  
+Apr 2019 -First look at [Drought seasonality for WNV](drought_first_look_by_week.nb.html)  
 
 Apr 2019 - Epi Nuts and Bolts follow up to [compare CA to US on SVIs](ca_vs_us_tb.nb.html) 
 
