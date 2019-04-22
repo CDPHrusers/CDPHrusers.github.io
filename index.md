@@ -15,7 +15,7 @@ ___
 
 [Plots/Graphs/Viz](#viz) - Here we highlight a couple of packages to display and explore data
 
-[R Markdown](#markdown) - R Markdown allos you to easily document your work and share documentation of methods and results
+[R Markdown](#markdown) - R Markdown allows you to easily document your work and share documentation of methods and results
 
 [Wrangling](#tidy) - [Powerful packages](http://r4ds.had.co.nz/) to help you clean and wrangle your datasets
 
@@ -27,7 +27,7 @@ ___
 
 [GISr](#gis) - R can handle your spatial data as well
 
-[GitHub](#github.html) - GitHub can be a powerful complement to R and other languages as you work on [reproducable research](http://kbroman.org/steps2rr/) 
+[GitHub](#github.html) - GitHub can be a powerful complement to R and other languages as you work on [reproducible research](http://kbroman.org/steps2rr/) 
 
 ___
 ##  R Basics <a id="basics"></a>
@@ -49,19 +49,22 @@ ___
 ___
 ##  Plots/Graphs/Viz <a id="viz"></a>
 
-One of the most popular packages for visualizing your data is [ggplot2](http://ggplot2.tidyverse.org/). It relies on the [grammar of graphics](http://vita.had.co.nz/papers/layered-grammar.pdf). There are many tutorials available for learning how to use ggplot to quickly and easily investigate and vizualize your data:
+One of the most popular packages for visualizing your data is [ggplot2](http://ggplot2.tidyverse.org/). It relies on the [grammar of graphics](http://vita.had.co.nz/papers/layered-grammar.pdf). There are many tutorials available for learning how to use ggplot to quickly and easily investigate and visualize your data:
  - [Tutorial from r-statistics.co](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html)
  - [ggplot section of R for Data Science](http://r4ds.had.co.nz/data-visualisation.html)
 
 
 
-For inspiration, check out these [top 50 vizualizations in ggplot](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html), with code
+For inspiration, check out these [top 50 visualizations in ggplot](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html), with code
 
 ___
 ##  R Markdown <a id="markdown"></a>
+Apr 2019 -First look at [Drought seasonality for WNV](drought_first_look_by week.nb.html)  
 
-[ISDS Workshop on Wildfires](vargoISDSnotebook.nb.html)
+Apr 2019 - Epi Nuts and Bolts follow up to [compare CA to US on SVIs](ca_vs_us_tb.nb.html) 
 
-Here is [an example](prelim_ghg_leb.html) of an R Markdown-generated webpage which demonstrates a simple analysis to compare carbon emissions and life expactancy at birth.
+Feb 2019 - [ISDS Workshop on Wildfires](vargoISDSnotebook.nb.html)
+
+Here is [an example](prelim_ghg_leb.html) of an R Markdown-generated webpage which demonstrates a simple analysis to compare carbon emissions and life expectancy at birth.
 
 Here is [another example](GBDexplore.html) that looks at some US Global Burden of Disease data and the Risk Factors contributing to the leading causes of death. 
