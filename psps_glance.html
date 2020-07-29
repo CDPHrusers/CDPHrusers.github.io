@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>RStudio Connect</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!--[if lt IE 9]>
+        <script src="assets/javascripts/ie.min.js"></script>
+        <![endif]-->
+    <!-- jQuery  -->
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <script async src="out/dashboard.bundle.js"></script>
+    <style>#initialSpinner .dot{width:40%;height:40%;border-radius:50%;position:absolute;-webkit-animation:initialProgressPulse 2s infinite ease-in-out;animation:initialProgressPulse 2s infinite ease-in-out}#initialSpinner .dot.one{top:0;left:30%;background-color:#75aadb}#initialSpinner .dot.two{top:30%;left:0;-webkit-animation-delay:-1.5s;animation-delay:-1.5s;background-color:#75aadb}#initialSpinner .dot.three{bottom:0;left:30%;-webkit-animation-delay:-1s;animation-delay:-1s;background-color:#75aadb}#initialSpinner .dot.four{top:30%;right:0;-webkit-animation-delay:-.5s;animation-delay:-.5s;background-color:#75aadb}#initialSpinner{display:block;width:100%;height:100%;position:relative;-webkit-animation:rotate 2s infinite linear;animation:rotate 2s infinite linear}@-webkit-keyframes rotate{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes rotate{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes initialProgressPulse{0%,100%{-webkit-transform:scale(.1);transform:scale(.1);opacity:.1}50%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes initialProgressPulse{0%,100%{-webkit-transform:scale(.1);transform:scale(.1);opacity:.1}50%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}#initialSpinnerWrapper{margin-left:auto;margin-right:auto;height:150px;width:150px;margin-top:150px}</style>
+  </head>
+
+  <body>
+    <app-layout>
+      <standard-page>
+        <ui-view></ui-view>
+      </standard-page>
+    </app-layout>
+
+		<div id="initialSpinnerWrapper" ng-if="false">
+			<div id="initialSpinner">
+				<div class="dot one"></div>
+				<div class="dot two"></div>
+				<div class="dot three"></div>
+				<div class="dot four"></div>
+			</div>
+		</div>
+
+    <div class="taskui-global" taskui="taskui"></div>
+  </body>
+</html>
